@@ -1,4 +1,8 @@
+package sampleCode.Arrays;
+
 public class EphrataTemp {
+
+    private static String Below;
 
     public static void main(String[] args) {
 
@@ -21,6 +25,12 @@ public class EphrataTemp {
 
         // Count and print out the number of days the temperature was below the average temperature
 
+            for (int t = 0; t < hightemp.length; t++){
+                if(hightemp[t] < averageTemp){
+                    
+                }
+            }
+            System.out.println("Temperatures Below" + Below);
 
 
 
